@@ -30,25 +30,22 @@ export default function FeatureCards() {
           <span>View mode:</span>
           <button
             onClick={() => setLayout("grid")}
-            className={`p-2 rounded ${
-              layout === "grid" ? "bg-indigo-100 text-indigo-600" : ""
-            }`}
+            className={`p-2 rounded ${layout === "grid" ? "bg-indigo-100 text-indigo-600" : ""
+              }`}
           >
             <Grid2X2 className="h-5 w-5" />
           </button>
           <button
             onClick={() => setLayout("list")}
-            className={`p-2 rounded ${
-              layout === "list" ? "bg-indigo-100 text-indigo-600" : ""
-            }`}
+            className={`p-2 rounded ${layout === "list" ? "bg-indigo-100 text-indigo-600" : ""
+              }`}
           >
             <LayoutList className="h-5 w-5" />
           </button>
           <button
             onClick={() => setLayout("columns")}
-            className={`p-2 rounded ${
-              layout === "columns" ? "bg-indigo-100 text-indigo-600" : ""
-            }`}
+            className={`p-2 rounded ${layout === "columns" ? "bg-indigo-100 text-indigo-600" : ""
+              }`}
           >
             <Columns className="h-5 w-5" />
           </button>
@@ -134,6 +131,12 @@ export default function FeatureCards() {
             <CardTitle className="text-[24px]">
               Building:
             </CardTitle>
+            <a
+              href="https://idealisticgroup.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold flex items-center gap-2"
+            >Preview website <SquareArrowOutUpRight size={16}/></a>
             <CardDescription className="text-[36px] font-extrabold flex items-center space-x-2">
               <a
                 href="https://idealisticwolrd.com"
