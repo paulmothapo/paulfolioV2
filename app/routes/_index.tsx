@@ -8,7 +8,7 @@ export const meta: MetaFunction = () => {
   return [
     { title: "Paul Mothapo - Engineer" },
     { name: "description", content: "Expirienced software engineer specializing in building scalable and efficient solutions." },
-    { name: "og:title", content: "SenseGrid - Engineer" },
+    { name: "og:title", content: "Paul Mothapo - Engineer" },
     { name: "og:description", content: "Expirienced software engineer specializing in building scalable and efficient solutions." },
     { name: "og:type", content: "website" },
   ];
